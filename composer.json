@@ -1,0 +1,41 @@
+    "name": "gind/gind-bootstrap",
+    "type": "typo3-cms-extension",
+    "description": "Extends bootstrap-package",
+    "keywords": [
+        "TYPO3",
+        "extension",
+    ],
+    "homepage": "https://gindserver.duckdns.org",
+    "authors": [
+        {
+            "name": "Alexander König",
+            "role": "Developer"
+        }
+    ],
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "require": {
+        "typo3/cms-core": "^9.5.17 || ^10.4.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "GeorgRinger\\News\\": "Classes"
+        }
+    },
+    "replace": {
+        "typo3-ter/gind-bootstrap": "self.version"
+    },
+    "config": {
+        "vendor-dir": ".Build/vendor",
+        "bin-dir": ".Build/bin"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "gind_bootstrap",
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": ".Build/Web"
+        }
+    }
+
+}

@@ -1,0 +1,7 @@
+# Records
+###########################
+# cat=records/enable/103; type=boolean; label=Test
+prependAtCopy = 1
+
+# cat=records/enable/101; type=string; label=Test2
+tagPid = 1
