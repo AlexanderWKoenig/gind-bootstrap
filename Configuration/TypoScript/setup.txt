@@ -1,0 +1,36 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/setup.typoscript">
+
+page {
+    10 {
+        templateRootPaths.10 = EXT:gind_bootstrap/Resources/Private/Templates/Page/
+        layoutRootPaths.10 = EXT:gind_bootstrap/Resources/Private/Layouts/Page/
+        partialRootPaths.10 = EXT:gind_bootstrap/Resources/Private/Partials/Page/
+    }
+    #Remove google analytics stuff
+    jsInline <
+    includeCSSLibs {
+        googlewebfont < 
+        bootstrap = EXT:gind_bootstrap/Resources/Public/Css/bootstrap.min.css
+        # TODO concetate and compress when no subdir
+        bootstrappackageicon <
+        bootstrappackageicon = EXT:gind_bootstrap/Resources/Public/Css/bootstrappackageicon.min.css
+        bootstrappackageicon {
+            excludeFromConcatenation = 1
+            disableCompression = 1
+        }
+    }
+    includeCSS {
+        custom = EXT:gind_bootstrap/Resources/Public/Css/custom.css
+    }
+    includeJSFooterlibs {
+        bootstrap_form <
+    }
+}
+
+config {
+    absRefPrefix = /gitarrenbau-rostock/
+    baseURL = https://gindserver.duckdns.org/gitarrenbau-rostock/
+}

@@ -1,0 +1,27 @@
+.timeline-item-inner {
+	background-color: transparent;
+	border-color: #7d7d7d;
+}
+.footer-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+.footer-menu li {
+	padding-right: 1em;
+}
+.footer-menu li:last-child {
+	padding-right: 0;
+}
+.form-control {
+	background-color: #e3e3e3;
+	color: black;
+}
+.form-control:focus {
+	background-color: #e3e3e3;
+	color: black;
+}
+.cc-window, .cc-revoke {
+	color: #e3e3e3;
+}
