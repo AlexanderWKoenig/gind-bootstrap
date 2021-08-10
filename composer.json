@@ -1,4 +1,5 @@
 {    
+    "name": "gind/gind-bootstrap",
     "type": "typo3-cms-extension",
     "description": "Extends bootstrap-package",
     "keywords": [
