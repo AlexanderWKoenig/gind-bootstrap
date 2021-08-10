@@ -1,4 +1,3 @@
-    "name": "gind/gind-bootstrap",
     "type": "typo3-cms-extension",
     "description": "Extends bootstrap-package",
     "keywords": [
@@ -20,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "GeorgRinger\\News\\": "Classes"
+            "Gind\\GindBootstrap\\": "Classes"
         }
     },
     "replace": {
