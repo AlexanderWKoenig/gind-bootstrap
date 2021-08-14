@@ -25,3 +25,118 @@
 .cc-window, .cc-revoke {
 	color: #e3e3e3;
 }
+
+.frame-background-dark {
+	color:  #e3e3e3;
+}
+
+.nav-link:focus,
+.nav-link:hover,
+.nav-link {
+	color: #28a745;
+}
+
+.pswp__bg {
+    background: rgba(0, 0, 0, .65);
+}
+
+.pswp__img--placeholder--blank {
+	background: transparent;
+}
+
+
+.textmedia-intext-right .textmedia-gallery,
+.textmedia-intext-right .textpic-gallery {
+	float:  right;
+}
+.textmedia-intext-left .textmedia-gallery,
+.textmedia-intext-left .textpic-gallery {
+	float: left;
+}
+
+.textmedia-intext {
+	display: block;
+}
+
+.textmedia-intext .textmedia-item,
+.textmedia-intext .textpic-item {
+	width: auto;
+}
+
+.textmedia-left,
+.textmedia-right {
+	flex-wrap: nowrap;
+}
+
+.custom-gallery .textmedia-item,
+.custom-gallery .textpic-item,
+.custom-gallery .gallery-item-size-2,
+.custom-gallery .gallery-item-size-3,
+.custom-gallery .gallery-item-size-4,
+.custom-gallery .gallery-item-size-5,
+.custom-gallery .gallery-item-size-6 {
+	width: auto;
+}
+
+.custom-gallery-row {
+	flex-wrap: nowrap;
+}
+
+.custom-gallery .gallery-item-size-1 {
+
+}
+
+.custom-gallery figure img,
+.custom-gallery figure picture {
+	max-width: unset;
+}
+
+.custom-gallery .gallery-item img,
+.custom-gallery .gallery-item picture {
+	width: unset;
+}
+
+.textmedia-below .textmedia-item,
+.textmedia-above .textmedia-item {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.textmedia-below-left .textmedia-item,
+.textmedia-above-left .textmedia-item {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.textmedia-below-right .textmedia-item,
+.textmedia-above-right .textmedia-item {
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.textmedia-below .gallery-row,
+.textmedia-above .gallery-row {
+	justify-content: center;
+}
+
+.textmedia-below-left .gallery-row,
+.textmedia-above-left .gallery-row {
+	justify-content: flex-start;
+}
+
+.textmedia-below-right .gallery-row,
+.textmedia-above-right .gallery-row {
+	justify-content: flex-end;
+}
+
+@media (max-width: 575px) {
+	.custom-gallery .textmedia-left, .textmedia-right {
+    	flex-wrap: wrap;
+	}
+	.textmedia-intext-right .textmedia-gallery,
+	.textmedia-intext-right .textpic-gallery,
+	.textmedia-intext-left .textmedia-gallery,
+	.textmedia-intext-left .textpic-gallery {
+	    float: none;
+	}
+}

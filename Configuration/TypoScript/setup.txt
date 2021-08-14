@@ -34,3 +34,30 @@ config {
     absRefPrefix = /gitarrenbau-rostock/
     baseURL = https://gindserver.duckdns.org/gitarrenbau-rostock/
 }
+
+lib.contentElement {
+    templateRootPaths.20 = EXT:gind_bootstrap/Resources/Private/Templates/ContentElements/
+    layoutRootPaths.20 = EXT:gind_bootstrap/Resources/Private/Layouts/ContentElements/
+    partialRootPaths.20 = EXT:gind_bootstrap/Resources/Private/Partials/ContentElements/
+}
+
+######################################
+### Additional TextMedia TEMPLATES ###
+######################################
+tt_content.textmedia {
+    templateName.stdWrap.cObject {
+        1 = TEXT
+        1.value = TextmediaAboveRight
+        2 = TEXT
+        2.value = TextmediaAboveLeft
+        9 = TEXT
+        9.value = TextmediaBelowRight
+        10 = TEXT
+        10.value = TextmediaBelowLeft
+        17 = TEXT
+        17.value = TextmediaInTextRight
+        18 = TEXT
+        18.value = TextmediaInTextLeft
+        25 = TEXT
+    }
+}

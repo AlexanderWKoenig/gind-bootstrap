@@ -21,6 +21,7 @@ plugin.bootstrap_package {
         scss {            
             # cat=bootstrap 4.x: styling/300/primary; type=string; label=$primary:
             primary = #28a745
+            secondary = #ffd500
             # cat=bootstrap 4.x: styling/303/body-bg; type=string; label=$body-bg:
             body-bg = #3e3e3e
             # cat=bootstrap 4.x: styling/303/body-color; type=string; label=$body-color:
@@ -36,6 +37,7 @@ plugin.bootstrap_package {
             dropdown-link-color < plugin.bootstrap_package.settings.scss.navbar-light-color
             card-color = #eeeeee
             carousel-indicator-active-bg = #eeeeee
+            nav-tabs-link-active-color < plugin.bootstrap_package.settings.scss.black
         }
     }
 }
