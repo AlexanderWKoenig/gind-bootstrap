@@ -26,8 +26,12 @@
 	color: #e3e3e3;
 }
 
-.frame-background-dark {
-	color:  #e3e3e3;
+.frame-background-light {
+	color:  #232323;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #313131;
 }
 
 .nav-link:focus,
@@ -127,6 +131,27 @@
 .textmedia-below-right .gallery-row,
 .textmedia-above-right .gallery-row {
 	justify-content: flex-end;
+}
+
+/* Responsive ifranes */
+.embed-responsive {
+  position: relative; 
+  padding-bottom: 56.25%; /* ratio 16x9 */
+  height: 0; 
+  overflow: hidden; 
+  width: 100%;
+  height: auto;
+}
+.embed-responsive iframe {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+}
+/* ratio 4x3 */
+.embed-responsive-4by3 {
+  padding-bottom: 75%;
 }
 
 @media (max-width: 575px) {
