@@ -16,14 +16,6 @@ page {
     }
     includeCSS {
         custom = EXT:gind_bootstrap/Resources/Public/Css/custom.css
-        [applicationContext = Development*]
-            bootstrappackageicon <
-            bootstrappackageicon = EXT:gind_bootstrap/Resources/Public/Css/bootstrappackageicon.min.css
-            bootstrappackageicon {
-                excludeFromConcatenation = 1
-                disableCompression = 1
-            }
-        [end]
     }
     includeJSFooterlibs {
         bootstrap_form <
@@ -40,6 +32,14 @@ lib.contentElement {
     config {
         absRefPrefix = https://gindserver.duckdns.org/gitarrenbau-rostock/
         baseURL = https://gindserver.duckdns.org/gitarrenbau-rostock/
+    }
+    page.includeCSS {
+        bootstrappackageicon <
+        bootstrappackageicon = EXT:gind_bootstrap/Resources/Public/Css/bootstrappackageicon.min.css
+        bootstrappackageicon {
+            excludeFromConcatenation = 1
+            disableCompression = 1
+        }
     }
 [end]
 

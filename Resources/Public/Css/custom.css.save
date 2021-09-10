@@ -1,29 +1,23 @@
 @font-face {
     font-family: 'horbsetextured';
-    src: url('/gitarrenbau-rostock/typo3conf/ext/gind_bootstrap/Resources/Public/Fonts/horbse_textured-webfont.eot');
-    src: url('/gitarrenbau-rostock/typo3conf/ext/gind_bootstrap/Resources/Public/Fonts/horbse_textured-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/gitarrenbau-rostock/typo3conf/ext/gind_bootstrap/Resources/Public/Fonts/horbse_textured-webfont.woff2') format('woff2'),
-         url('/gitarrenbau-rostock/typo3conf/ext/gind_bootstrap/Resources/Public/Fonts/horbse_textured-webfont.woff') format('woff'),
-         url('/gitarrenbau-rostock/typo3conf/ext/gind_bootstrap/Resources/Public/Fonts/horbse_textured-webfont.ttf') format('truetype'),
-         url('/gitarrenbau-rostock/typo3conf/ext/gind_bootstrap/Resources/Public/Fonts/horbse_textured-webfont.svg#horbsetextured') format('svg');
+    src: url('../Fonts/horbse_textured-webfont.eot');
+    src: url('    background-color: #212121 !important;horbse_textured-webfont.eot?#iefix') format('embedded-opentype'),
+         url('horbse_textured-webfont.woff2') format('woff2'),
+         url('horbse_textured-webfont.woff') format('woff'),
+         url('horbse_textured-webfont.ttf') format('truetype'),
+         url('horbse_textured-webfont.svg#horbsetextured') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
 
 .custom-font {
 	font-family: "horbsetextured";
 }
 
-.navbar-mainnavigation .navbar-brand { 
-	display: flex;
-	align-items: center;
-}
-
-.bg-white, .navbar-default, .navbar-default-transition, .navbar-default-transition.navbar-transition,
-.dropdown-menu {
+.bg-white, .navbar-default, .navbar-default-transition, .navbar-default-transition.navbar-transition {
 	background-color: #212121 !important;
 }
-
 
 
 .timeline-item-inner {
@@ -56,6 +50,10 @@
 
 .frame-background-light {
 	color:  #232323;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #313131;
 }
 
 .nav-link:focus,
@@ -157,6 +155,26 @@
 	justify-content: flex-end;
 }
 
+/* Responsive ifranes */
+.embed-responsive {
+  position: relative; 
+  padding-bottom: 56.25%; /* ratio 16x9 */
+  height: 0; 
+  overflow: hidden; 
+  width: 100%;
+  height: auto;
+}
+.embed-responsive iframe {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+}
+/* ratio 4x3 */
+.embed-responsive-4by3 {
+  padding-bottom: 75%;
+}
 
 @media (max-width: 575px) {
 	.custom-gallery .textmedia-left, .textmedia-right {
