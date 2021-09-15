@@ -28,7 +28,7 @@ lib.contentElement {
     partialRootPaths.20 = EXT:gind_bootstrap/Resources/Private/Partials/ContentElements/
 }
 
-[applicationContext = Development*]
+[applicationContext matches "/^Development/"]
     config {
         absRefPrefix = https://gindserver.duckdns.org/gitarrenbau-rostock/
         baseURL = https://gindserver.duckdns.org/gitarrenbau-rostock/

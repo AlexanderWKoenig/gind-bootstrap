@@ -7,7 +7,7 @@ page.theme {
 	navigation.type = top
 	breadcrumb.enableLevel = 1
 	socialmedia.channels.facebook.url = https://www.facebook.com/Gitarrenbau-Georg-P%C3%B6schmann-100602978085047/
-	copyright.text = Copyright -- Running with <a href="http://www.typo3.org" rel="noopener" target="_blank">TYPO3</a> and <a href="https://www.bootstrap-package.com" rel="noopener" target="_blank">Bootstrap Package</a>.
+	copyright.text = © 2021 - Gitarrenbau Georg Pöschmann
 	language.enable = 0
 }
 
