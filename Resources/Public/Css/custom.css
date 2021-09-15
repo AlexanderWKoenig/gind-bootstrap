@@ -1,15 +1,14 @@
-@font-face {
-    font-family: 'horbsetextured';
-    src: url('/gitarrenbau-rostock/typo3conf/ext/gind_bootstrap/Resources/Public/Fonts/horbse_textured-webfont.eot');
-    src: url('/gitarrenbau-rostock/typo3conf/ext/gind_bootstrap/Resources/Public/Fonts/horbse_textured-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/gitarrenbau-rostock/typo3conf/ext/gind_bootstrap/Resources/Public/Fonts/horbse_textured-webfont.woff2') format('woff2'),
-         url('/gitarrenbau-rostock/typo3conf/ext/gind_bootstrap/Resources/Public/Fonts/horbse_textured-webfont.woff') format('woff'),
-         url('/gitarrenbau-rostock/typo3conf/ext/gind_bootstrap/Resources/Public/Fonts/horbse_textured-webfont.ttf') format('truetype'),
-         url('/gitarrenbau-rostock/typo3conf/ext/gind_bootstrap/Resources/Public/Fonts/horbse_textured-webfont.svg#horbsetextured') format('svg');
-    font-weight: normal;
-    font-style: normal;
+@font-face { 
+	font-family: 'horbsetextured';
+	 src: url('../Fonts/horbse_textured-webfont.eot');
+	 src: url('../Fonts/horbse_textured-webfont.eot?#iefix') format('embedded-opentype'), 
+        	 url('../Fonts/horbse_textured-webfont.woff2') format('woff2'), 
+		 url('../Fonts/horbse_textured-webfont.woff') format('woff'),
+		 url('../Fonts/horbse_textured-webfont.ttf') format('truetype'),
+		 url('../Fonts/horbse_textured-webfont.svg#horbsetextured') format('svg');
+	font-weight: normal;
+	 font-style: normal;
 }
-
 .custom-font {
 	font-family: "horbsetextured";
 }
