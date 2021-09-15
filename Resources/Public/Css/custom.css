@@ -9,13 +9,20 @@
 	font-weight: normal;
 	 font-style: normal;
 }
-.custom-font {
+
+.custom-font,
+h1 {
 	font-family: "horbsetextured";
 }
 
 .navbar-mainnavigation .navbar-brand { 
 	display: flex;
 	align-items: center;
+}
+
+.tx-powermail .container-fluid {
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .bg-white, .navbar-default, .navbar-default-transition, .navbar-default-transition.navbar-transition,
@@ -166,5 +173,18 @@
 	.textmedia-intext-left .textmedia-gallery,
 	.textmedia-intext-left .textpic-gallery {
 	    float: none;
+	}
+	.navbar-mainnavigation .navbar-brand {
+		white-space: initial;
+		margin-right: 0;
+	}
+	.navbar-mainnavigation .navbar-brand span {
+		max-width: 236px;
+	}
+	.footer-section-meta {
+    		text-align: center;
+	}
+	.footer-sociallinks .sociallinks-list {
+		justify-content: center;
 	}
 }
