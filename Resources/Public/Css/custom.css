@@ -7,7 +7,7 @@
 		 url('../Fonts/horbse_textured-webfont.ttf') format('truetype'),
 		 url('../Fonts/horbse_textured-webfont.svg#horbsetextured') format('svg');
 	font-weight: normal;
-	 font-style: normal;
+    font-style: normal;
 }
 
 .custom-font,
@@ -15,9 +15,16 @@ h1 {
 	font-family: "horbsetextured";
 }
 
-.navbar-mainnavigation .navbar-brand { 
-	display: flex;
-	align-items: center;
+.navbar-collapse {
+    justify-content: end;
+}
+
+.navbar-mainnavigation .navbar-brand {
+	height: auto;
+}
+
+.navbar-mainnavigation .navbar-nav {
+	width: auto;
 }
 
 .tx-powermail .container-fluid {
@@ -29,8 +36,6 @@ h1 {
 .dropdown-menu {
 	background-color: #212121 !important;
 }
-
-
 
 .timeline-item-inner {
 	background-color: transparent;
@@ -56,18 +61,17 @@ h1 {
 	background-color: #e3e3e3;
 	color: black;
 }
+.footer-copyright {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
 .cc-window, .cc-revoke {
 	color: #e3e3e3;
 }
 
 .frame-background-light {
 	color:  #232323;
-}
-
-.nav-link:focus,
-.nav-link:hover,
-.nav-link {
-	color: #28a745;
 }
 
 .pswp__bg {
@@ -174,9 +178,11 @@ h1 {
 	.textmedia-intext-left .textpic-gallery {
 	    float: none;
 	}
-	.navbar-mainnavigation .navbar-brand {
-		white-space: initial;
-		margin-right: 0;
+    .navbar-mainnavigation .navbar-brand {
+        white-space: initial;
+        margin-right: 0;
+        flex-shrink: 1;
+        flex-basis: 85%;
 	}
 	.navbar-mainnavigation .navbar-brand span {
 		max-width: 236px;
